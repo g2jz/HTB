@@ -1,0 +1,34 @@
+Target: http://10.10.10.239/admin/FUZZ.php
+Total requests: 220560
+==================================================================
+ID    Response   Lines      Word         Chars          Request    
+==================================================================
+00001:  C=200    169 L	     450 W	   6198 Ch	  "# directory-list-2.3-medium.txt"
+00005:  C=200    169 L	     450 W	   6198 Ch	  "# This work is licensed under the Creative Commons"
+00009:  C=200    169 L	     450 W	   6198 Ch	  "# Suite 300, San Francisco, California, 94105, USA."
+00004:  C=200    169 L	     450 W	   6198 Ch	  "#"
+00007:  C=200    169 L	     450 W	   6198 Ch	  "# license, visit http://creativecommons.org/licenses/by-sa/3.0/"
+00006:  C=200    169 L	     450 W	   6198 Ch	  "# Attribution-Share Alike 3.0 License. To view a copy of this"
+00002:  C=200    169 L	     450 W	   6198 Ch	  "#"
+00003:  C=200    169 L	     450 W	   6198 Ch	  "# Copyright 2007 James Fisher"
+00008:  C=200    169 L	     450 W	   6198 Ch	  "# or send a letter to Creative Commons, 171 Second Street,"
+00010:  C=200    169 L	     450 W	   6198 Ch	  "#"
+00011:  C=200    169 L	     450 W	   6198 Ch	  "# Priority ordered case sensative list, where entries were found"
+00015:  C=200    169 L	     450 W	   6198 Ch	  "index"
+00013:  C=200    169 L	     450 W	   6198 Ch	  "#"
+00012:  C=200    169 L	     450 W	   6198 Ch	  "# on atleast 2 different hosts"
+00038:  C=302    412 L	    1114 W	  16257 Ch	  "home"
+00053:  C=302      0 L	       0 W	      0 Ch	  "login"
+00142:  C=302      4 L	      47 W	    397 Ch	  "print"
+00286:  C=302    412 L	    1114 W	  16257 Ch	  "Home"
+00659:  C=200    169 L	     450 W	   6198 Ch	  "Index"
+00825:  C=302      0 L	       0 W	      0 Ch	  "Login"
+01225:  C=302      0 L	       0 W	      0 Ch	  "logout"
+05085:  C=200    169 L	     450 W	   6198 Ch	  "INDEX"
+05192:  C=302    490 L	    1277 W	  19800 Ch	  "positions"
+05955:  C=302      4 L	      47 W	    397 Ch	  "Print"
+
+Total time: 0
+Processed Requests: 6975
+Filtered Requests: 6951
+Requests/sec.: 0

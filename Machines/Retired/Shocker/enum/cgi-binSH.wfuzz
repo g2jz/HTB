@@ -1,0 +1,40 @@
+Target: http://10.10.10.56/cgi-bin/FUZZ.sh
+Total requests: 43003
+==================================================================
+ID    Response   Lines      Word         Chars          Request    
+==================================================================
+00007:  C=403     11 L	      32 W	    302 Ch	  ".html"
+00038:  C=403     11 L	      32 W	    301 Ch	  ".htm"
+00031:  C=200      7 L	      17 W	    118 Ch	  "user"
+00589:  C=403     11 L	      32 W	    306 Ch	  ".htaccess"
+02138:  C=403     11 L	      32 W	    301 Ch	  ".htc"
+03475:  C=403     11 L	      32 W	    309 Ch	  ".html_var_DE"
+05736:  C=403     11 L	      32 W	    306 Ch	  ".htpasswd"
+06495:  C=403     11 L	      32 W	    303 Ch	  ".html."
+07255:  C=403     11 L	      32 W	    307 Ch	  ".html.html"
+08280:  C=403     11 L	      32 W	    307 Ch	  ".htpasswds"
+10844:  C=403     11 L	      32 W	    302 Ch	  ".htm."
+11528:  C=403     11 L	      32 W	    303 Ch	  ".htmll"
+12350:  C=403     11 L	      32 W	    306 Ch	  ".html.old"
+13428:  C=403     11 L	      32 W	    300 Ch	  ".ht"
+13429:  C=403     11 L	      32 W	    306 Ch	  ".html.bak"
+14573:  C=403     11 L	      32 W	    305 Ch	  ".htm.htm"
+17671:  C=403     11 L	      32 W	    303 Ch	  ".html1"
+17669:  C=403     11 L	      32 W	    301 Ch	  ".hta"
+17670:  C=403     11 L	      32 W	    305 Ch	  ".htgroup"
+19899:  C=403     11 L	      32 W	    306 Ch	  ".html.LCK"
+19900:  C=403     11 L	      32 W	    312 Ch	  ".html.printable"
+22817:  C=403     11 L	      32 W	    305 Ch	  ".htm.LCK"
+27081:  C=403     11 L	      32 W	    310 Ch	  ".htaccess.bak"
+27082:  C=403     11 L	      32 W	    306 Ch	  ".html.php"
+27083:  C=403     11 L	      32 W	    303 Ch	  ".htmls"
+27084:  C=403     11 L	      32 W	    301 Ch	  ".htx"
+33266:  C=403     11 L	      32 W	    302 Ch	  ".htlm"
+33267:  C=403     11 L	      32 W	    302 Ch	  ".htm2"
+33268:  C=403     11 L	      32 W	    303 Ch	  ".html-"
+33269:  C=403     11 L	      32 W	    304 Ch	  ".htuser"
+
+Total time: 0
+Processed Requests: 43003
+Filtered Requests: 42973
+Requests/sec.: 0

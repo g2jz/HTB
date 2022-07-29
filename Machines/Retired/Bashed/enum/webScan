@@ -1,0 +1,15 @@
+# Nmap 7.91 scan initiated Tue Aug 24 17:18:55 2021 as: nmap --script http-enum -p80 -oN webScan 10.10.10.68
+Nmap scan report for 10.10.10.68
+Host is up (0.044s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+| http-enum: 
+|   /css/: Potentially interesting directory w/ listing on 'apache/2.4.18 (ubuntu)'
+|   /dev/: Potentially interesting directory w/ listing on 'apache/2.4.18 (ubuntu)'
+|   /images/: Potentially interesting directory w/ listing on 'apache/2.4.18 (ubuntu)'
+|   /js/: Potentially interesting directory w/ listing on 'apache/2.4.18 (ubuntu)'
+|   /php/: Potentially interesting directory w/ listing on 'apache/2.4.18 (ubuntu)'
+|_  /uploads/: Potentially interesting folder
+
+# Nmap done at Tue Aug 24 17:19:01 2021 -- 1 IP address (1 host up) scanned in 5.32 seconds

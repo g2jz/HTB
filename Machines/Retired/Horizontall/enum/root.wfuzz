@@ -1,0 +1,28 @@
+Target: http://horizontall.htb/FUZZ/
+Total requests: 220560
+==================================================================
+ID    Response   Lines      Word         Chars          Request    
+==================================================================
+00001:  C=200      1 L	      43 W	    901 Ch	  "# directory-list-2.3-medium.txt"
+00009:  C=200      1 L	      43 W	    901 Ch	  "# Suite 300, San Francisco, California, 94105, USA."
+00005:  C=200      1 L	      43 W	    901 Ch	  "# This work is licensed under the Creative Commons"
+00007:  C=200      1 L	      43 W	    901 Ch	  "# license, visit http://creativecommons.org/licenses/by-sa/3.0/"
+00039:  C=403      7 L	      11 W	    178 Ch	  "img"
+00004:  C=200      1 L	      43 W	    901 Ch	  "#"
+00008:  C=200      1 L	      43 W	    901 Ch	  "# or send a letter to Creative Commons, 171 Second Street,"
+00002:  C=200      1 L	      43 W	    901 Ch	  "#"
+00010:  C=200      1 L	      43 W	    901 Ch	  "#"
+00006:  C=200      1 L	      43 W	    901 Ch	  "# Attribution-Share Alike 3.0 License. To view a copy of this"
+00011:  C=200      1 L	      43 W	    901 Ch	  "# Priority ordered case sensative list, where entries were found"
+00012:  C=200      1 L	      43 W	    901 Ch	  "# on atleast 2 different hosts"
+00014:  C=200      1 L	      43 W	    901 Ch	  "http://horizontall.htb//"
+00013:  C=200      1 L	      43 W	    901 Ch	  "#"
+00003:  C=200      1 L	      43 W	    901 Ch	  "# Copyright 2007 James Fisher"
+00550:  C=403      7 L	      11 W	    178 Ch	  "css"
+00953:  C=403      7 L	      11 W	    178 Ch	  "js"
+45240:  C=200      1 L	      43 W	    901 Ch	  "http://horizontall.htb//"
+
+Total time: 0
+Processed Requests: 220560
+Filtered Requests: 220542
+Requests/sec.: 0

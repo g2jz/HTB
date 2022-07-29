@@ -1,0 +1,30 @@
+Target: http://10.10.10.239/FUZZ
+Total requests: 220560
+==================================================================
+ID    Response   Lines      Word         Chars          Request    
+==================================================================
+00001:  C=200    125 L	     324 W	   4388 Ch	  "# directory-list-2.3-medium.txt"
+00006:  C=200    125 L	     324 W	   4388 Ch	  "# Attribution-Share Alike 3.0 License. To view a copy of this"
+00009:  C=200    125 L	     324 W	   4388 Ch	  "# Suite 300, San Francisco, California, 94105, USA."
+00013:  C=200    125 L	     324 W	   4388 Ch	  "#"
+00007:  C=200    125 L	     324 W	   4388 Ch	  "# license, visit http://creativecommons.org/licenses/by-sa/3.0/"
+00004:  C=200    125 L	     324 W	   4388 Ch	  "#"
+00002:  C=200    125 L	     324 W	   4388 Ch	  "#"
+00003:  C=200    125 L	     324 W	   4388 Ch	  "# Copyright 2007 James Fisher"
+00005:  C=200    125 L	     324 W	   4388 Ch	  "# This work is licensed under the Creative Commons"
+00012:  C=200    125 L	     324 W	   4388 Ch	  "# on atleast 2 different hosts"
+00010:  C=200    125 L	     324 W	   4388 Ch	  "#"
+00011:  C=200    125 L	     324 W	   4388 Ch	  "# Priority ordered case sensative list, where entries were found"
+00016:  C=301      9 L	      30 W	    338 Ch	  "images"
+00014:  C=200    125 L	     324 W	   4388 Ch	  "http://10.10.10.239/"
+00008:  C=200    125 L	     324 W	   4388 Ch	  "# or send a letter to Creative Commons, 171 Second Street,"
+00203:  C=301      9 L	      30 W	    338 Ch	  "Images"
+00259:  C=301      9 L	      30 W	    337 Ch	  "admin"
+00519:  C=301      9 L	      30 W	    339 Ch	  "plugins"
+00638:  C=301      9 L	      30 W	    340 Ch	  "includes"
+00902:  C=503     11 L	      44 W	    402 Ch	  "examples"
+
+Total time: 0
+Processed Requests: 1139
+Filtered Requests: 1119
+Requests/sec.: 0

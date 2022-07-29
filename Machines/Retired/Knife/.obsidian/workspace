@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "6bcde63aebe0ecf4",
+    "type": "split",
+    "children": [
+      {
+        "id": "f8e78402b41a69e3",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Knife.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ff5e8ca80cbbfa44",
+    "type": "split",
+    "children": [
+      {
+        "id": "922c70434d2d6e50",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3daa81610e5e130e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "52f43b0a6a61ca09",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "325c1e4c3348b314",
+    "type": "split",
+    "children": [
+      {
+        "id": "c5fa9f54b14301c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3fedaddf251bfb47",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Knife.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f8e78402b41a69e3",
+  "lastOpenFiles": [
+    "Knife.md",
+    "Untitled.md"
+  ]
+}

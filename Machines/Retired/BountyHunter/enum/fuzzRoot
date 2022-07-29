@@ -1,0 +1,29 @@
+Target: http://10.10.11.100/FUZZ
+Total requests: 220560
+==================================================================
+ID    Response   Lines      Word         Chars          Request    
+==================================================================
+00001:  C=200    388 L	    1470 W	  25168 Ch	  "# directory-list-2.3-medium.txt"
+00003:  C=200    388 L	    1470 W	  25168 Ch	  "# Copyright 2007 James Fisher"
+00007:  C=200    388 L	    1470 W	  25168 Ch	  "# license, visit http://creativecommons.org/licenses/by-sa/3.0/"
+00014:  C=200    388 L	    1470 W	  25168 Ch	  "http://10.10.11.100/"
+00012:  C=200    388 L	    1470 W	  25168 Ch	  "# on atleast 2 different hosts"
+00013:  C=200    388 L	    1470 W	  25168 Ch	  "#"
+00011:  C=200    388 L	    1470 W	  25168 Ch	  "# Priority ordered case sensative list, where entries were found"
+00010:  C=200    388 L	    1470 W	  25168 Ch	  "#"
+00009:  C=200    388 L	    1470 W	  25168 Ch	  "# Suite 300, San Francisco, California, 94105, USA."
+00006:  C=200    388 L	    1470 W	  25168 Ch	  "# Attribution-Share Alike 3.0 License. To view a copy of this"
+00008:  C=200    388 L	    1470 W	  25168 Ch	  "# or send a letter to Creative Commons, 171 Second Street,"
+00005:  C=200    388 L	    1470 W	  25168 Ch	  "# This work is licensed under the Creative Commons"
+00002:  C=200    388 L	    1470 W	  25168 Ch	  "#"
+00004:  C=200    388 L	    1470 W	  25168 Ch	  "#"
+00084:  C=301      9 L	      28 W	    316 Ch	  "resources"
+00291:  C=301      9 L	      28 W	    313 Ch	  "assets"
+00550:  C=301      9 L	      28 W	    310 Ch	  "css"
+00953:  C=301      9 L	      28 W	    309 Ch	  "js"
+45240:  C=200    388 L	    1470 W	  25168 Ch	  "http://10.10.11.100/"
+
+Total time: 0
+Processed Requests: 46079
+Filtered Requests: 46060
+Requests/sec.: 0

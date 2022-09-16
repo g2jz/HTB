@@ -1,0 +1,95 @@
+{
+  "main": {
+    "id": "d9f1f427f64fd208",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7ae64ba64623cdd",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Pathfinder.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2043e9190c4f2c2c",
+    "type": "split",
+    "children": [
+      {
+        "id": "811097c6930b7d69",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8be81b0d3b39742d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "6aee7fd51e5e2fea",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2ba4d617e214e56c",
+    "type": "split",
+    "children": [
+      {
+        "id": "d20136e18d95e2c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7ef92af78ab98853",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Pathfinder.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e7ae64ba64623cdd",
+  "lastOpenFiles": [
+    "Pathfinder.md",
+    "Pathfinder.pdf",
+    "Untitled.md"
+  ]
+}

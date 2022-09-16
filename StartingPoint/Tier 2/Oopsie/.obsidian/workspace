@@ -1,0 +1,95 @@
+{
+  "main": {
+    "id": "d4a7e5af3c10b0cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "945a579f1e92ab2b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Oopsie.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f3d2ea9784270d99",
+    "type": "split",
+    "children": [
+      {
+        "id": "047bdc62556e0dea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c3aa4a744d01703",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "193284de5c5f6706",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "pat",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f0746ed9c16b6f69",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f1f15f6f3004442",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76f527c8055cf025",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Oopsie.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "945a579f1e92ab2b",
+  "lastOpenFiles": [
+    "Oopsie.md",
+    "Oopsie.pdf",
+    "Untitled.md"
+  ]
+}

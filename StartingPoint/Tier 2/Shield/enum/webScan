@@ -1,0 +1,12 @@
+# Nmap 7.91 scan initiated Mon Jun 14 23:02:06 2021 as: nmap --script http-enum -oN webScan 10.10.10.29
+Nmap scan report for 10.10.10.29
+Host is up (0.038s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+| http-enum: 
+|   /wordpress/: Blog
+|_  /wordpress/wp-login.php: Wordpress login page.
+3306/tcp open  mysql
+
+# Nmap done at Mon Jun 14 23:03:54 2021 -- 1 IP address (1 host up) scanned in 108.39 seconds

@@ -244,7 +244,7 @@ Como vemos tenemos unas capabilities curiosas en el binario de Python 3.8. Tenem
 
 <br>
 
-### Shell spwaning
+### Shell spawning
 Para conseguir una shell como root nos aprovecharemos de la capabilitie cap_setuid que nos permitirá ejecutar comandos de Python como el usuario root.
 
 Ejecutaremos el siguiente comando para spawnearnos una shell como el usuario root:

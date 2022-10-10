@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Sun Nov 28 18:26:35 2021 as: nmap --script=http-enum -p80 -oN webScan 10.10.11.125
-Nmap scan report for backdoor.htb (10.10.11.125)
-Host is up (0.10s latency).
+# Nmap 7.92 scan initiated Mon Oct 10 09:26:04 2022 as: nmap --script http-enum -p80 -oN webScan.txt 10.10.11.125
+Nmap scan report for 10.10.11.125
+Host is up (0.035s latency).
 
 PORT   STATE SERVICE
 80/tcp open  http
@@ -16,4 +16,4 @@ PORT   STATE SERVICE
 |   /wp-admin/upgrade.php: Wordpress login page.
 |_  /readme.html: Interesting, a readme.
 
-# Nmap done at Sun Nov 28 18:26:51 2021 -- 1 IP address (1 host up) scanned in 16.19 seconds
+# Nmap done at Mon Oct 10 09:26:13 2022 -- 1 IP address (1 host up) scanned in 8.44 seconds

@@ -1,0 +1,603 @@
+../../../../../../../../proc/sched_debug../../../../../../../../proc/sched_debug../../../../../../../../proc/sched_debugSched Debug Version: v0.11, 5.4.0-80-generic #90-Ubuntu
+ktime                                   : 2141738.637379
+sched_clk                               : 2141878.646167
+cpu_clk                                 : 2141766.935843
+jiffies                                 : 4295427705
+sched_clock_stable()                    : 1
+
+sysctl_sched
+  .sysctl_sched_latency                    : 12.000000
+  .sysctl_sched_min_granularity            : 1.500000
+  .sysctl_sched_wakeup_granularity         : 2.000000
+  .sysctl_sched_child_runs_first           : 0
+  .sysctl_sched_features                   : 2059067
+  .sysctl_sched_tunable_scaling            : 1 (logarithmic)
+
+cpu#0, 2994.375 MHz
+  .nr_running                    : 0
+  .nr_switches                   : 494675
+  .nr_load_updates               : 0
+  .nr_uninterruptible            : -4
+  .next_balance                  : 4295.427707
+  .curr->pid                     : 0
+  .clock                         : 2141767.289125
+  .clock_task                    : 2141767.289125
+  .avg_idle                      : 1000000
+  .max_idle_balance_cost         : 500000
+
+cfs_rq[0]:/autogroup-80
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 1834.277871
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -24784.627550
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 1
+  .runnable_load_avg             : 0
+  .util_avg                      : 0
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 1
+  .tg_load_avg                   : 1
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2141733.266142
+  .se->vruntime                  : 26613.865534
+  .se->sum_exec_runtime          : 3937.845839
+  .se->load.weight               : 699050
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[0]:/autogroup-36
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 1285.792040
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -25333.113381
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 0
+  .runnable_load_avg             : 0
+  .util_avg                      : 0
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 0
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2141735.947780
+  .se->vruntime                  : 26613.244097
+  .se->sum_exec_runtime          : 1249.806179
+  .se->load.weight               : 2
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[0]:/autogroup-57
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 16115.702125
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -10503.203296
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 0
+  .runnable_load_avg             : 0
+  .util_avg                      : 0
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 0
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2141147.792619
+  .se->vruntime                  : 26618.905421
+  .se->sum_exec_runtime          : 3062.728478
+  .se->load.weight               : 1039440
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[0]:/autogroup-68
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 5064.069704
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -21554.835717
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 0
+  .runnable_load_avg             : 0
+  .util_avg                      : 0
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 18
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2141274.275404
+  .se->vruntime                  : 26612.996902
+  .se->sum_exec_runtime          : 14520.573524
+  .se->load.weight               : 2
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[0]:/
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 26618.905421
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : 0.000000
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 0
+  .runnable_load_avg             : 0
+  .util_avg                      : 1
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 0
+  .throttled                     : 0
+  .throttle_count                : 0
+
+rt_rq[0]:
+  .rt_nr_running                 : 0
+  .rt_nr_migratory               : 0
+  .rt_throttled                  : 0
+  .rt_time                       : 0.233740
+  .rt_runtime                    : 950.000000
+
+dl_rq[0]:
+  .dl_nr_running                 : 0
+  .dl_nr_migratory               : 0
+  .dl_bw->bw                     : 996147
+  .dl_bw->total_bw               : 0
+
+runnable tasks:
+ S           task   PID         tree-key  switches  prio     wait-time             sum-exec        sum-sleep
+-----------------------------------------------------------------------------------------------------------
+ S        systemd     1       439.361438      2920   120         0.000000      1856.493320         0.000000 0 0 /autogroup-2
+ S       kthreadd     2     26039.431487       286   120         0.000000         6.533862         0.000000 0 0 /
+ I         rcu_gp     3        13.970315         2   100         0.000000         0.004218         0.000000 0 0 /
+ I     rcu_par_gp     4        15.970487         2   100         0.000000         0.001833         0.000000 0 0 /
+ I   kworker/0:0H     6      2012.361750         4   100         0.000000         0.108834         0.000000 0 0 /
+ I   mm_percpu_wq     9        22.041342         2   100         0.000000         0.002524         0.000000 0 0 /
+ S    ksoftirqd/0    10     26603.583793      8584   120         0.000000       172.241224         0.000000 0 0 /
+ S    migration/0    12         0.000000       672     0         0.000000        12.469605         0.000000 0 0 /
+ S  idle_inject/0    13         0.000000         3    49         0.000000         0.005831         0.000000 0 0 /
+ S        cpuhp/0    14      6388.091220         9   120         0.000000         0.197780         0.000000 0 0 /
+ S      kdevtmpfs    21      6727.686699       188   120         0.000000         2.268730         0.000000 0 0 /
+ S        kswapd0    89       951.766663         3   120         0.000000         0.032981         0.000000 0 0 /
+ Secryptfs-kthrea    90       758.849237         2   120         0.000000         0.082486         0.000000 0 0 /
+ S  irq/24-pciehp    93         0.000000         2    49         0.000000         0.023885         0.000000 0 0 /
+ S  irq/26-pciehp    95         0.000000         2    49         0.000000         0.014798         0.000000 0 0 /
+ S  irq/28-pciehp    97         0.000000         2    49         0.000000         0.023244         0.000000 0 0 /
+ S  irq/30-pciehp    99         0.000000         2    49         0.000000         0.016582         0.000000 0 0 /
+ S  irq/32-pciehp   101         0.000000         2    49         0.000000         0.017292         0.000000 0 0 /
+ S  irq/34-pciehp   103         0.000000         2    49         0.000000         0.021150         0.000000 0 0 /
+ S  irq/36-pciehp   105         0.000000         2    49         0.000000         0.163767         0.000000 0 0 /
+ S  irq/38-pciehp   107         0.000000         2    49         0.000000         0.025558         0.000000 0 0 /
+ S  irq/40-pciehp   109         0.000000         2    49         0.000000         0.031228         0.000000 0 0 /
+ S  irq/42-pciehp   111         0.000000         2    49         0.000000         0.031158         0.000000 0 0 /
+ S  irq/44-pciehp   113         0.000000         2    49         0.000000         0.105037         0.000000 0 0 /
+ S  irq/46-pciehp   115         0.000000         2    49         0.000000         0.020038         0.000000 0 0 /
+ S  irq/48-pciehp   117         0.000000         2    49         0.000000         0.162234         0.000000 0 0 /
+ S  irq/50-pciehp   119         0.000000         2    49         0.000000         0.042680         0.000000 0 0 /
+ S  irq/52-pciehp   121         0.000000         2    49         0.000000         0.026038         0.000000 0 0 /
+ S  irq/54-pciehp   123         0.000000         2    49         0.000000         0.022061         0.000000 0 0 /
+ Iacpi_thermal_pm   125       957.751896         2   100         0.000000         0.023233         0.000000 0 0 /
+ S      scsi_eh_1   129      1050.013630         4   120         0.000000        24.121856         0.000000 0 0 /
+ I     scsi_tmf_1   130       969.770609         2   100         0.000000         0.023133         0.000000 0 0 /
+ Ivfio-irqfd-clea   132       969.776541         2   100         0.000000         0.010599         0.000000 0 0 /
+ I          kstrp   143       996.208582         2   100         0.000000         0.007945         0.000000 0 0 /
+ Icharger_manager   159      1032.345793         2   100         0.000000         0.010841         0.000000 0 0 /
+ S      scsi_eh_2   199      1923.700122        26   120         0.000000         1.306638         0.000000 0 0 /
+ S      scsi_eh_3   201      1923.704150        26   120         0.000000         1.161314         0.000000 0 0 /
+ S      scsi_eh_4   203      1924.307541        25   120         0.000000         1.737518         0.000000 0 0 /
+ I     mpt_poll_0   205      1379.613066         2   100         0.000000         0.004368         0.000000 0 0 /
+ S      scsi_eh_5   206      1923.993053        25   120         0.000000         1.432217         0.000000 0 0 /
+ I     scsi_tmf_5   208      1648.677787         2   100         0.000000         0.009378         0.000000 0 0 /
+ I     scsi_tmf_6   210      1657.314364         2   100         0.000000         0.005170         0.000000 0 0 /
+ I     scsi_tmf_7   212      1668.582014         2   100         0.000000         0.006572         0.000000 0 0 /
+ S  irq/16-vmwgfx   215         0.001092      9357    49         0.000000       275.831598         0.000000 0 0 /
+ S      scsi_eh_9   217      1923.746619        26   120         0.000000         1.250056         0.000000 0 0 /
+ I     scsi_tmf_9   219      1689.918338         2   100         0.000000         0.013375         0.000000 0 0 /
+ I    scsi_tmf_10   221      1701.441444         2   100         0.000000         0.008246         0.000000 0 0 /
+ S     scsi_eh_18   243      1924.034266        25   120         0.000000         1.510509         0.000000 0 0 /
+ S     scsi_eh_19   245      1923.775152        26   120         0.000000         1.235958         0.000000 0 0 /
+ S     scsi_eh_21   249      1923.851336        26   120         0.000000         1.361907         0.000000 0 0 /
+ S     scsi_eh_24   255      1923.748693        26   120         0.000000         1.191638         0.000000 0 0 /
+ S     scsi_eh_25   258      1923.772328        26   120         0.000000         1.257420         0.000000 0 0 /
+ I    scsi_tmf_25   264      1716.849472         3   100         0.000000         0.018936         0.000000 0 0 /
+ S     scsi_eh_26   267      1923.768590        27   120         0.000000         1.200541         0.000000 0 0 /
+ I    scsi_tmf_26   269      1726.835655         2   100         0.000000         0.005350         0.000000 0 0 /
+ S     scsi_eh_27   270      1923.654917        26   120         0.000000         1.072862         0.000000 0 0 /
+ I    scsi_tmf_27   271      1734.411361         2   100         0.000000         0.003176         0.000000 0 0 /
+ S     scsi_eh_28   272      1923.765605        26   120         0.000000         1.222332         0.000000 0 0 /
+ I    scsi_tmf_28   273      1742.007553         3   100         0.000000         0.016231         0.000000 0 0 /
+ I    scsi_tmf_29   275      1750.008313         2   100         0.000000         0.001834         0.000000 0 0 /
+ S     scsi_eh_30   276      1923.126696        26   120         0.000000         0.585925         0.000000 0 0 /
+ I    scsi_tmf_30   277      1758.009169         2   100         0.000000         0.001553         0.000000 0 0 /
+ S     scsi_eh_31   278      1923.785583        26   120         0.000000         1.233097         0.000000 0 0 /
+ I    scsi_tmf_31   279      1766.010882         2   100         0.000000         0.003366         0.000000 0 0 /
+ S     scsi_eh_32   326      2010.692394         2   120         0.000000         0.011873         0.000000 0 0 /
+ I   kworker/0:1H   328     26601.311432      1869   100         0.000000        42.978519         0.000000 0 0 /
+ I       kdmflush   343      2045.748342         2   100         0.000000         0.004659         0.000000 0 0 /
+ S    jbd2/dm-0-8   428     26601.666243      2634   120         0.000000       115.674408         0.000000 0 0 /
+ S  systemd-udevd   512      1267.298502      1920   120         0.000000      1129.653473         0.000000 0 0 /autogroup-15
+ I   kmpath_rdacd   655      6402.475653         2   100         0.000000         0.027412         0.000000 0 0 /
+ S     multipathd   660         0.000000         1     0         0.000000         0.384712         0.000000 0 0 /autogroup-24
+ S     multipathd   661         0.000000        75     0         0.000000         4.419252         0.000000 0 0 /autogroup-24
+ S     multipathd   662         0.000000      3318     0         0.000000       771.574528         0.000000 0 0 /autogroup-24
+ S    jbd2/sda2-8   666      6835.856069        13   120         0.000000         0.263201         0.000000 0 0 /
+ S  VGAuthService   691       267.336905       106   120         0.000000       268.904711         0.000000 0 0 /autogroup-35
+ S       vmtoolsd   708      1285.792040     25260   120         0.000000      2546.554695         0.000000 0 0 /autogroup-36
+ S       vmtoolsd   753       572.494201       146   120         0.000000         1.512078         0.000000 0 0 /autogroup-36
+ S          gmain   760       572.497317       146   120         0.000000         1.983338         0.000000 0 0 /autogroup-36
+ S    dbus-daemon   755        46.149298       355   120         0.000000        53.034488         0.000000 0 0 /autogroup-37
+ S     irqbalance   765        79.147338       233   120         0.000000       111.844865         0.000000 0 0 /autogroup-42
+ S          gmain   783         3.894065         1   120         0.000000         0.065593         0.000000 0 0 /autogroup-42
+ Snetworkd-dispat   770        71.651573       419   120         0.000000       109.977884         0.000000 0 0 /autogroup-41
+ S    in:imuxsock   804        42.803284       994   120         0.000000        52.856146         0.000000 0 0 /autogroup-43
+ S systemd-logind   786        46.077238       251   120         0.000000        61.320030         0.000000 0 0 /autogroup-44
+ S           cron   829       318.083772        54   120         0.000000         7.584842         0.000000 0 0 /autogroup-55
+ S        apache2   873      5064.069704      2257   120         0.000000       164.421431         0.000000 0 0 /autogroup-68
+ S           sshd   876        11.424966        23   120         0.000000        13.193537         0.000000 0 0 /autogroup-70
+ S         agetty   938         1.378694        29   120         0.000000         8.540252         0.000000 0 0 /autogroup-85
+ S        polkitd   942        12.067852        69   120         0.000000        13.202297         0.000000 0 0 /autogroup-74
+ S          gmain   951         4.556392         2   120         0.000000         0.028995         0.000000 0 0 /autogroup-74
+ S          gdbus   953         7.445747        46   120         0.000000         2.125944         0.000000 0 0 /autogroup-74
+ S        systemd   957         9.607804       303   120         0.000000        85.504984         0.000000 0 0 /autogroup-76
+ I    kworker/0:6   958     25994.042449     15098   120         0.000000       796.748623         0.000000 0 0 /
+ S         mysqld   976      1394.896017       360   120         0.000000      1242.904958         0.000000 0 0 /autogroup-80
+ S     ib_io_ibuf  1017      1828.444014      4262   120         0.000000        99.050248         0.000000 0 0 /autogroup-80
+ S      ib_io_log  1018      1828.205085      4260   120         0.000000       110.519854         0.000000 0 0 /autogroup-80
+ S     ib_io_rd-2  1020      1828.221757      4261   120         0.000000        86.968772         0.000000 0 0 /autogroup-80
+ S     ib_io_rd-3  1021      1828.146524      4261   120         0.000000       133.889512         0.000000 0 0 /autogroup-80
+ S     ib_io_rd-4  1022      1828.202610      4260   120         0.000000       125.877341         0.000000 0 0 /autogroup-80
+ S     ib_io_wr-1  1023      1828.287028      4352   120         0.000000        90.866153         0.000000 0 0 /autogroup-80
+ S     ib_io_wr-3  1025      1828.263654      4342   120         0.000000       108.868386         0.000000 0 0 /autogroup-80
+ S ib_log_checkpt  1028      1828.019948      2167   120         0.000000       111.782261         0.000000 0 0 /autogroup-80
+ Sib_log_fl_notif  1029      1834.279393     22007   120         0.000000       610.019734         0.000000 0 0 /autogroup-80
+ S ib_srv_lock_to  1037      1828.061454      2131   120         0.000000        69.835410         0.000000 0 0 /autogroup-80
+ S ib_srv_err_mon  1038      1828.034984      2132   120         0.000000        72.966300         0.000000 0 0 /autogroup-80
+ S     ib_srv_mon  1039      1828.277419       427   120         0.000000        16.708154         0.000000 0 0 /autogroup-80
+ S  ib_buf_resize  1040       909.710758         1   120         0.000000         0.126277         0.000000 0 0 /autogroup-80
+ S    ib_src_main  1041      1828.175108      2138   120         0.000000       218.584761         0.000000 0 0 /autogroup-80
+ S  ib_dict_stats  1042      1825.340215       213   120         0.000000         9.674544         0.000000 0 0 /autogroup-80
+ S     ib_fts_opt  1043      1826.680836       426   120         0.000000        20.175301         0.000000 0 0 /autogroup-80
+ S   xpl_accept-1  1046      1006.817529         2   120         0.000000         0.040215         0.000000 0 0 /autogroup-80
+ S  ib_clone_gtid  1051      1834.277871     21364   120         0.000000       885.300235         0.000000 0 0 /autogroup-80
+ S   ib_srv_wkr-3  1055      1454.308839       413   120         0.000000         9.013993         0.000000 0 0 /autogroup-80
+ S      evt_sched  1056      1013.557906         5   120         0.000000         0.873527         0.000000 0 0 /autogroup-80
+ S   xpl_accept-2  1058      1828.235773      2274   120         0.000000       109.756280         0.000000 0 0 /autogroup-80
+ S       gtid_zip  1060      1017.039103         1   120         0.000000         0.231755         0.000000 0 0 /autogroup-80
+ S     connection  1355      1399.018672       376   120         0.000000       120.656867         0.000000 0 0 /autogroup-80
+ S        apache2   988      5051.611809     10075   120         0.000000      2561.422163         0.000000 0 0 /autogroup-68
+ S        apache2  1362      5058.042697      9905   120         0.000000      2438.063765         0.000000 0 0 /autogroup-68
+ S        apache2  1396      5051.546977      9794   120         0.000000      2592.184489         0.000000 0 0 /autogroup-68
+ S        apache2  2138      5055.067666      6773   120         0.000000      1724.546698         0.000000 0 0 /autogroup-68
+ S        apache2  2149      5055.975688      6579   120         0.000000      1648.375991         0.000000 0 0 /autogroup-68
+ S           bash  3420         0.312406         3   120         0.000000         2.209934         0.000000 0 0 /autogroup-94
+ t           true  3428        13.007730         7   120         0.000000         1.957450         0.000000 0 0 /autogroup-94
+ S        apache2  3868      5052.419539      1101   120         0.000000       270.041212         0.000000 0 0 /autogroup-68
+ I    kworker/0:0  5386     26612.941359      4779   120         0.000000       266.054287         0.000000 0 0 /
+ I kworker/u256:0  5521     26550.839973       601   120         0.000000        23.362295         0.000000 0 0 /
+ S          sleep  6433     16115.702125         1   120         0.000000         0.569237         0.000000 0 0 /autogroup-57
+
+cpu#1, 2994.375 MHz
+  .nr_running                    : 2
+  .nr_switches                   : 495512
+  .nr_load_updates               : 0
+  .nr_uninterruptible            : 4
+  .next_balance                  : 4295.427694
+  .curr->pid                     : 989
+  .clock                         : 2141767.203935
+  .clock_task                    : 2141767.203935
+  .avg_idle                      : 1000000
+  .max_idle_balance_cost         : 500000
+
+cfs_rq[1]:/autogroup-80
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 1760.527739
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -24858.377682
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 0
+  .runnable_load_avg             : 0
+  .util_avg                      : 0
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 1
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2141746.236211
+  .se->vruntime                  : 25662.107416
+  .se->sum_exec_runtime          : 3626.003146
+  .se->load.weight               : 2
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[1]:/autogroup-36
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 1954.846241
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -24664.059180
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 0
+  .runnable_load_avg             : 0
+  .util_avg                      : 0
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 0
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2141402.432409
+  .se->vruntime                  : 25660.251809
+  .se->sum_exec_runtime          : 1916.999381
+  .se->load.weight               : 2
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[1]:/autogroup-68
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 5773.990634
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -20844.914787
+  .nr_spread_over                : 0
+  .nr_running                    : 1
+  .load                          : 1048576
+  .runnable_weight               : 1048576
+  .load_avg                      : 18
+  .runnable_load_avg             : 18
+  .util_avg                      : 17
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 18
+  .tg_load_avg                   : 18
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2141767.203935
+  .se->vruntime                  : 25661.056887
+  .se->sum_exec_runtime          : 14996.730650
+  .se->load.weight               : 1048576
+  .se->runnable_weight           : 1048576
+  .se->avg.load_avg              : 18
+  .se->avg.util_avg              : 17
+  .se->avg.runnable_load_avg     : 18
+
+cfs_rq[1]:/
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 25660.225599
+  .min_vruntime                  : 25666.225599
+  .max_vruntime                  : 25660.225599
+  .spread                        : 0.000000
+  .spread0                       : -952.679822
+  .nr_spread_over                : 0
+  .nr_running                    : 2
+  .load                          : 2097152
+  .runnable_weight               : 2097152
+  .load_avg                      : 36
+  .runnable_load_avg             : 35
+  .util_avg                      : 19
+  .util_est_enqueued             : 32
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 0
+  .throttled                     : 0
+  .throttle_count                : 0
+
+rt_rq[1]:
+  .rt_nr_running                 : 0
+  .rt_nr_migratory               : 0
+  .rt_throttled                  : 0
+  .rt_time                       : 0.077725
+  .rt_runtime                    : 950.000000
+
+dl_rq[1]:
+  .dl_nr_running                 : 0
+  .dl_nr_migratory               : 0
+  .dl_bw->bw                     : 996147
+  .dl_bw->total_bw               : 0
+
+runnable tasks:
+ S           task   PID         tree-key  switches  prio     wait-time             sum-exec        sum-sleep
+-----------------------------------------------------------------------------------------------------------
+ I      rcu_sched    11     25660.621427    123142   120         0.000000      1850.317938         0.000000 0 0 /
+ S        cpuhp/1    15      5777.394286         9   120         0.000000         0.109647         0.000000 0 0 /
+ S  idle_inject/1    16        -3.000000         3    49         0.000000         0.001072         0.000000 0 0 /
+ S    migration/1    17         0.000000       645     0         0.000000       137.054270         0.000000 0 0 /
+ R    ksoftirqd/1    18     25660.225599      7991   120         0.000000       162.567653         0.000000 0 0 /
+ I   kworker/1:0H    20      2052.617211         5   100         0.000000         0.025809         0.000000 0 0 /
+ I          netns    22         6.986788         2   100         0.000000         0.000000         0.000000 0 0 /
+ Srcu_tasks_kthre    23         6.986788         2   120         0.000000         0.000000         0.000000 0 0 /
+ S        kauditd    24      5874.623204         9   120         0.000000         0.115236         0.000000 0 0 /
+ S     khungtaskd    26     25551.491814        19   120         0.000000         3.295019         0.000000 0 0 /
+ S     oom_reaper    27        15.015560         2   120         0.000000         0.000000         0.000000 0 0 /
+ I      writeback    28        15.015560         2   100         0.000000         0.000000         0.000000 0 0 /
+ S     kcompactd0    29        15.015560         2   120         0.000000         0.000000         0.000000 0 0 /
+ S           ksmd    30        15.015560         2   125         0.000000         0.000000         0.000000 0 0 /
+ S     khugepaged    31        15.029416         2   139         0.000000         0.013856         0.000000 0 0 /
+ I    kintegrityd    78        39.068412         2   100         0.000000         0.000000         0.000000 0 0 /
+ I        kblockd    79        39.068412         2   100         0.000000         0.000000         0.000000 0 0 /
+ I blkcg_punt_bio    80        39.068412         2   100         0.000000         0.000000         0.000000 0 0 /
+ I     tpm_dev_wq    81        39.074473         2   100         0.000000         0.006061         0.000000 0 0 /
+ I        ata_sff    82        43.084220         2   100         0.000000         0.009748         0.000000 0 0 /
+ I             md    83        47.097023         2   100         0.000000         0.012804         0.000000 0 0 /
+ I    edac-poller    84        51.133149         2   100         0.000000         0.036127         0.000000 0 0 /
+ I     devfreq_wq    85        55.133148         2   100         0.000000         0.000000         0.000000 0 0 /
+ S      watchdogd    86         0.000000         2     0         0.000000         0.014787         0.000000 0 0 /
+ I       kthrotld    92       344.142909         3   100         0.000000         0.017673         0.000000 0 0 /
+ S  irq/25-pciehp    94         0.000000         3    49         0.000000         0.037481         0.000000 0 0 /
+ S  irq/27-pciehp    96         0.000000         3    49         0.000000         0.037841         0.000000 0 0 /
+ S  irq/29-pciehp    98         0.000000         3    49         0.000000         0.581169         0.000000 0 0 /
+ S  irq/31-pciehp   100         0.000000         3    49         0.000000         0.033532         0.000000 0 0 /
+ S  irq/33-pciehp   102         0.000000         3    49         0.000000         0.124363         0.000000 0 0 /
+ S  irq/35-pciehp   104         0.000000         3    49         0.000000         0.027772         0.000000 0 0 /
+ S  irq/37-pciehp   106         0.000000         3    49         0.000000         0.464071         0.000000 0 0 /
+ S  irq/39-pciehp   108         0.000000         3    49         0.000000         0.419348         0.000000 0 0 /
+ S  irq/41-pciehp   110         0.000000         3    49         0.000000         0.047208         0.000000 0 0 /
+ S  irq/43-pciehp   112         0.000000         3    49         0.000000         0.072906         0.000000 0 0 /
+ S  irq/45-pciehp   114         0.000000         3    49         0.000000         0.428805         0.000000 0 0 /
+ S  irq/47-pciehp   116         0.000000         3    49         0.000000         0.113584         0.000000 0 0 /
+ S  irq/49-pciehp   118         0.000000         3    49         0.000000         0.402814         0.000000 0 0 /
+ S  irq/51-pciehp   120         0.000000         3    49         0.000000         0.041780         0.000000 0 0 /
+ S  irq/53-pciehp   122         0.000000         3    49         0.000000         0.057437         0.000000 0 0 /
+ S  irq/55-pciehp   124         0.000000         3    49         0.000000         0.039234         0.000000 0 0 /
+ S      scsi_eh_0   127       556.613110         4   120         0.000000        12.349075         0.000000 0 0 /
+ I     scsi_tmf_0   128       420.719401         2   100         0.000000         0.015489         0.000000 0 0 /
+ I  ipv6_addrconf   134       459.726650         2   100         0.000000         0.027571         0.000000 0 0 /
+ I kworker/u257:0   146       510.029061         2   100         0.000000         0.017454         0.000000 0 0 /
+ I     scsi_tmf_2   200       822.438386         2   100         0.000000         0.012133         0.000000 0 0 /
+ I     scsi_tmf_3   202       837.694311         2   100         0.000000         0.020679         0.000000 0 0 /
+ I     scsi_tmf_4   204       851.671571         2   100         0.000000         0.009197         0.000000 0 0 /
+ I          mpt/0   207       859.584795         2   100         0.000000         0.006803         0.000000 0 0 /
+ S      scsi_eh_6   209      1955.980827        25   120         0.000000         1.327030         0.000000 0 0 /
+ S      scsi_eh_7   211      1956.009209        25   120         0.000000         1.305667         0.000000 0 0 /
+ S      scsi_eh_8   213      1956.449054        25   120         0.000000         1.700159         0.000000 0 0 /
+ I     scsi_tmf_8   214      1395.168100         2   100         0.000000         0.008375         0.000000 0 0 /
+ I       ttm_swap   216      1405.504252         2   100         0.000000         0.005661         0.000000 0 0 /
+ I         cryptd   218      1408.729077         2   100         0.000000         0.008586         0.000000 0 0 /
+ S     scsi_eh_10   220      1956.260893        25   120         0.000000         1.574293         0.000000 0 0 /
+ S     scsi_eh_11   229      1955.947213        25   120         0.000000         1.180975         0.000000 0 0 /
+ I    scsi_tmf_11   230      1444.038430         2   100         0.000000         0.009057         0.000000 0 0 /
+ S     scsi_eh_12   231      1955.966026        25   120         0.000000         1.283184         0.000000 0 0 /
+ I    scsi_tmf_12   232      1452.560673         2   100         0.000000         0.009568         0.000000 0 0 /
+ S     scsi_eh_13   233      1955.866361        25   120         0.000000         1.137553         0.000000 0 0 /
+ I    scsi_tmf_13   234      1461.035686         2   100         0.000000         0.008656         0.000000 0 0 /
+ S     scsi_eh_14   235      1955.591578        25   120         0.000000         0.877557         0.000000 0 0 /
+ I    scsi_tmf_14   236      1469.517801         2   100         0.000000         0.008124         0.000000 0 0 /
+ S     scsi_eh_15   237      1956.464355        25   120         0.000000         1.742921         0.000000 0 0 /
+ I    scsi_tmf_15   238      1477.992503         2   100         0.000000         0.008245         0.000000 0 0 /
+ S     scsi_eh_16   239      1955.968452        25   120         0.000000         1.243379         0.000000 0 0 /
+ I    scsi_tmf_16   240      1486.461745         2   100         0.000000         0.004057         0.000000 0 0 /
+ S     scsi_eh_17   241      1955.739655        25   120         0.000000         1.027507         0.000000 0 0 /
+ I    scsi_tmf_17   242      1494.937179         2   100         0.000000         0.042819         0.000000 0 0 /
+ I    scsi_tmf_18   244      1503.464783         2   100         0.000000         0.009980         0.000000 0 0 /
+ I    scsi_tmf_19   246      1511.940308         2   100         0.000000         0.008306         0.000000 0 0 /
+ S     scsi_eh_20   247      1955.889706        25   120         0.000000         1.231711         0.000000 0 0 /
+ I    scsi_tmf_20   248      1520.478211         2   100         0.000000         0.008646         0.000000 0 0 /
+ I    scsi_tmf_21   250      1528.959597         2   100         0.000000         0.008827         0.000000 0 0 /
+ S     scsi_eh_22   251      1956.062887        25   120         0.000000         1.316947         0.000000 0 0 /
+ I    scsi_tmf_22   252      1537.435492         2   100         0.000000         0.008085         0.000000 0 0 /
+ S     scsi_eh_23   253      1955.996224        25   120         0.000000         1.303032         0.000000 0 0 /
+ I    scsi_tmf_23   254      1545.916035         2   100         0.000000         0.008957         0.000000 0 0 /
+ I    scsi_tmf_24   256      1554.393335         2   100         0.000000         0.005300         0.000000 0 0 /
+ S     scsi_eh_29   274      1955.964636        26   120         0.000000         1.249354         0.000000 0 0 /
+ I    scsi_tmf_32   327      2019.863007         2   100         0.000000         0.018946         0.000000 0 0 /
+ I   kworker/1:1H   335     25646.933702      4844   100         0.000000       819.710169         0.000000 0 0 /
+ I       kdmflush   341      2067.760102         2   100         0.000000         0.017002         0.000000 0 0 /
+ I        raid5wq   374      2212.492459         2   100         0.000000         0.101599         0.000000 0 0 /
+ Iext4-rsv-conver   429      2439.617463         2   100         0.000000         0.011512         0.000000 0 0 /
+ Ssystemd-journal   486       258.566640      2427   119         0.000000      1206.241524         0.000000 0 0 /autogroup-3
+ Ssystemd-network   525        61.947572       478   120         0.000000       109.505469         0.000000 0 0 /autogroup-16
+ I         kaluad   654      5791.981951         2   100         0.000000         0.025888         0.000000 0 0 /
+ I        kmpathd   656      5803.294690         2   100         0.000000         0.009217         0.000000 0 0 /
+ Ikmpath_handlerd   657      5807.310955         2   100         0.000000         0.016891         0.000000 0 0 /
+ S     multipathd   658         0.000000      2618     0         0.000000        87.045289         0.000000 0 0 /autogroup-24
+ S     multipathd   659         0.000000       435     0         0.000000        20.081090         0.000000 0 0 /autogroup-24
+ S     multipathd   663         0.000000         7     0         0.000000         5.481909         0.000000 0 0 /autogroup-24
+ S     multipathd   664         0.000000         4     0         0.000000         0.184397         0.000000 0 0 /autogroup-24
+ Iext4-rsv-conver   667      5821.123640         2   100         0.000000         0.006783         0.000000 0 0 /
+ Ssystemd-resolve   681       396.619020       919   120         0.000000       535.509599         0.000000 0 0 /autogroup-30
+ Ssystemd-timesyn   683       345.419420       318   120         0.000000       364.071150         0.000000 0 0 /autogroup-31
+ S     sd-resolve   751       351.353787       853   120         0.000000       102.344524         0.000000 0 0 /autogroup-31
+ S   HangDetector   752      1953.279714      2281   120         0.000000        85.176872         0.000000 0 0 /autogroup-36
+ Saccounts-daemon   754        26.168089        72   120         0.000000        14.543910         0.000000 0 0 /autogroup-38
+ S          gmain   761        52.585943      2043   120         0.000000       121.948100         0.000000 0 0 /autogroup-38
+ S          gdbus   894        26.808460        35   120         0.000000         2.709312         0.000000 0 0 /autogroup-38
+ S       rsyslogd   776        36.284934        33   120         0.000000         6.967121         0.000000 0 0 /autogroup-43
+ S      in:imklog   805         9.185210         4   120         0.000000         3.432806         0.000000 0 0 /autogroup-43
+ S  rs:main Q:Reg   806        47.756009      1119   120         0.000000        56.144683         0.000000 0 0 /autogroup-43
+ S           cron   831         0.691187        31   120         0.000000         2.891720         0.000000 0 0 /autogroup-55
+ S           cron   832         0.666570        26   120         0.000000         3.109721         0.000000 0 0 /autogroup-55
+ S             sh   844     14166.949705      4303   120         0.000000       817.101098         0.000000 0 0 /autogroup-57
+ S             sh   847         1.586230         3   120         0.000000         1.204028         0.000000 0 0 /autogroup-64
+ S            atd   856         1.340863         5   120         0.000000         2.882284         0.000000 0 0 /autogroup-63
+ S       (sd-pam)   961         0.464843         1   120         0.000000         0.251041         0.000000 0 0 /autogroup-76
+ S         screen   966         0.466555        11   120         0.000000         1.324943         0.000000 0 0 /autogroup-78
+ S           bash   972        41.421383       130   120         0.000000        28.242470         0.000000 0 0 /autogroup-79
+ S     ib_io_rd-1  1019      1754.497361      4265   120         0.000000       114.641141         0.000000 0 0 /autogroup-80
+ S     ib_io_wr-2  1024      1754.530925      4356   120         0.000000       116.785899         0.000000 0 0 /autogroup-80
+ S     ib_io_wr-4  1026      1754.550461      4326   120         0.000000       119.141381         0.000000 0 0 /autogroup-80
+ S ib_pg_flush_co  1027      1754.487262      2312   120         0.000000       141.575541         0.000000 0 0 /autogroup-80
+ S   ib_log_flush  1030      1760.530098     22226   120         0.000000       698.770218         0.000000 0 0 /autogroup-80
+ Sib_log_wr_notif  1031      1760.527739     21947   120         0.000000       693.114159         0.000000 0 0 /autogroup-80
+ S  ib_log_writer  1032      1760.561132     22072   120         0.000000       744.339427         0.000000 0 0 /autogroup-80
+ S   xpl_worker-1  1044      1748.809084        37   120         0.000000         1.784572         0.000000 0 0 /autogroup-80
+ S   xpl_worker-2  1045      1748.747528        36   120         0.000000         0.498846         0.000000 0 0 /autogroup-80
+ S    ib_buf_dump  1050       948.473208         6   120         0.000000         0.870655         0.000000 0 0 /autogroup-80
+ S   ib_srv_purge  1052      1363.639160      1419   120         0.000000        49.311427         0.000000 0 0 /autogroup-80
+ S   ib_srv_wkr-1  1053      1362.762495       512   120         0.000000        16.171621         0.000000 0 0 /autogroup-80
+ S   ib_srv_wkr-2  1054      1362.761183       588   120         0.000000         7.164060         0.000000 0 0 /autogroup-80
+ S    sig_handler  1057       974.946940         2   120         0.000000         0.144871         0.000000 0 0 /autogroup-80
+ S     connection  1358      1319.789789       310   120         0.000000        49.962620         0.000000 0 0 /autogroup-80
+>R        apache2   989      5768.821922      8890   120         0.000000      2226.710891         0.000000 0 0 /autogroup-68
+ S        apache2  2135      5767.434831      6832   120         0.000000      1699.605290         0.000000 0 0 /autogroup-68
+ S        apache2  2146      5773.990634      6842   120         0.000000      1719.259974         0.000000 0 0 /autogroup-68
+ S        apache2  2150      5771.905152      7015   120         0.000000      1733.139759         0.000000 0 0 /autogroup-68
+ I kworker/u256:1  3282     25660.399175      3482   120         0.000000       122.960262         0.000000 0 0 /
+ I    kworker/1:0  3304     25103.186574      7079   120         0.000000       597.353019         0.000000 0 0 /
+ S             su  3415        16.258561        29   120         0.000000         5.854285         0.000000 0 0 /autogroup-64
+ S      gdbserver  3424        10.631109        13   120         0.000000         3.848920         0.000000 0 0 /autogroup-94
+ I    kworker/1:1  4867     25664.124835      4644   120         0.000000       404.925768         0.000000 0 0 /
+
+<script>window.close()</script>

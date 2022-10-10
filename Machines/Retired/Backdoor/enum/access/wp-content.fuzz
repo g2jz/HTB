@@ -1,0 +1,29 @@
+Target: http://10.10.11.125/wp-content/FUZZ
+Total requests: 220560
+==================================================================
+ID    Response   Lines      Word         Chars          Request    
+==================================================================
+00001:  C=200      0 L	       0 W	      0 Ch	  "# directory-list-2.3-medium.txt"
+00006:  C=200      0 L	       0 W	      0 Ch	  "# Attribution-Share Alike 3.0 License. To view a copy of this"
+00003:  C=200      0 L	       0 W	      0 Ch	  "# Copyright 2007 James Fisher"
+00005:  C=200      0 L	       0 W	      0 Ch	  "# This work is licensed under the Creative Commons"
+00002:  C=200      0 L	       0 W	      0 Ch	  "#"
+00004:  C=200      0 L	       0 W	      0 Ch	  "#"
+00007:  C=200      0 L	       0 W	      0 Ch	  "# license, visit http://creativecommons.org/licenses/by-sa/3.0/"
+00009:  C=200      0 L	       0 W	      0 Ch	  "# Suite 300, San Francisco, California, 94105, USA."
+00013:  C=200      0 L	       0 W	      0 Ch	  "#"
+00011:  C=200      0 L	       0 W	      0 Ch	  "# Priority ordered case-sensitive list, where entries were found"
+00012:  C=200      0 L	       0 W	      0 Ch	  "# on at least 2 different hosts"
+00008:  C=200      0 L	       0 W	      0 Ch	  "# or send a letter to Creative Commons, 171 Second Street,"
+00010:  C=200      0 L	       0 W	      0 Ch	  "#"
+00014:  C=200      0 L	       0 W	      0 Ch	  "http://10.10.11.125/wp-content/"
+00127:  C=301      9 L	      28 W	    324 Ch	  "themes"
+00164:  C=301      9 L	      28 W	    325 Ch	  "uploads"
+00519:  C=301      9 L	      28 W	    325 Ch	  "plugins"
+01031:  C=301      9 L	      28 W	    325 Ch	  "upgrade"
+45240:  C=200      0 L	       0 W	      0 Ch	  "http://10.10.11.125/wp-content/"
+
+Total time: 0
+Processed Requests: 220560
+Filtered Requests: 220541
+Requests/sec.: 0

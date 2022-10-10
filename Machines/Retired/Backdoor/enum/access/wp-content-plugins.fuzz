@@ -1,0 +1,13 @@
+Target: http://10.10.11.125/FUZZ
+Total requests: 13368
+==================================================================
+ID    Response   Lines      Word         Chars          Request    
+==================================================================
+00468:  C=403      9 L	      28 W	    277 Ch	  "wp-content/plugins/akismet/"
+04592:  C=500      0 L	       0 W	      0 Ch	  "wp-content/plugins/hello.php"
+04593:  C=500      0 L	       0 W	      0 Ch	  "wp-content/plugins/hello.php/"
+
+Total time: 0
+Processed Requests: 13368
+Filtered Requests: 13365
+Requests/sec.: 0
